@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+html {
+    /* 62.5% x 16px = 10px */
+    font-size: 62.5%; 
+    
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FDFAF5;
+
+}
+
+#special {
+    background-color: #6A8087;
+    color: white;
+    padding: 1rem;
+    background-image: url(./images/special-bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+#special p {
+    font-size: large;
+    padding-bottom: 0.5rem;
+    
+    
+   
+}
+
+#wrapper {
+    background-color: #FDF6EE;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+#wrapper {
+    
+    flex-basis: 100%;
+}
+
+#wrapper header {
+    background-image: url(./images/grunge.png)
+s
+         	
+}
+/*Navigointin palkin säännöt */
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.menu ul > * {
+
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+   
+
+}
+
+header hr {
+    width: 90%;
+    
+}
+
+
+
+
+ul a{
+    text-decoration: none;
+}
+
+
+.menu ul .logo {
+
+    flex-basis: 100%;
+    text-align: center;
+
+   
+    
+}
+
+.logo img {
+   
+}
+
+
+
+.menu2 {
+    display: none;
+}
+/* flexetaan main ja aside*/
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.parent > * {
+    flex-grow: 1;
+    flex-basis: 100%;
+    font-size: initial;
+
+}
+
+
+#main {
+    
+    background-color: #FAF7EF;
+    padding: 2rem;
+    line-height: 150%;
+   
+}
+
+#main img {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+.eka {
+    font-weight: bold;
+    
+      
+}
+
+#sidebar ul {
+    column-count: 2;
+    padding: 1rem;
+    
+}
+#sidebar ul li {
+    padding-bottom: 0.5rem;
+    
+}
+
+.callout p {
+    padding: 2rem;
+    background-color: #F6E9C9;
+    text-align: center;
+    font-size: large;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.side-text {
+    padding-left: 1rem;
+    line-height: 150%;
+
+}
+
+h3 {
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    
+}
+
+
+
+footer {
+    background-color: #FAF7EF;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem;
+    font-size: larger;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 426px) {
+    .menu ul .logo {
+        flex-basis: 0%;
+    }   
+    .menu ul > * {
+        font-size: larger;
+    } 
+    .menu2 {
+        display: block;
+        font-size: small;
+        padding-top: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .parent > * {
+        flex-grow: 1;
+        
+        font-size: initial;
+    }
+    #main {
+        flex-basis: 60%;
+    }
+
+    #sidebar {
+        flex-basis: 40%;
+    }
+    .parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .menu ul > * {
+        font-size: large;
+    } 
+    .menu2 {
+        display: block;
+        font-size: small;
+        padding-top: 0.4rem;
+    }
+}

@@ -1,0 +1,156 @@
+html {
+    /* 62.5% x 16px = 10px */
+    font-size: 62.5%; 
+
+}
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    
+    
+    
+}
+
+
+header {
+    background-color: #69013B;
+    color: #F2D0C7;
+    padding: 1rem;
+    font-weight: bold;
+    border: #69013B solid 2px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    background-color: #69013B;
+    color: #F2D0C7;
+    padding: 1rem;
+    font-weight: bold;
+    padding: 2rem
+    border: #69013B solid 2px;
+    border-radius: 0 0 10px 10px;
+
+}
+
+h1 {
+    padding: 1rem;
+    font-size: 2rem;
+    
+}
+
+h2 {
+    padding: 0.8rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    
+}
+
+h3 {
+    padding: 0.6rem;
+    padding: 0.6rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+
+}
+
+
+#logo {
+    position: relative;
+}
+
+#logo img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+
+.sisennys-2rem {
+    font-size: 1.6rem;   
+    font-style: italic;
+    padding-left: 2rem;
+    
+
+}
+
+.sisennys-4rem {
+    padding-left: 4rem;
+    font-size: 1.4rem;
+    padding-bottom: 0.2rem;
+    font-style: italic;
+    
+}
+
+.ops{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    
+    
+    
+}
+a:link { 
+    text-decoration: none;
+}
+
+.footer-p {
+    font-size: 1rem;
+    color: #F2D0C7;
+
+}
+#port {
+    color: #F2D0C7;
+    font-style: italic;
+}
+
+.ops ol {
+    list-style: decimal;
+    padding-left: 4rem;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+.ops li {
+    padding: 0.4rem;
+}
+
+a {
+    
+    
+
+}
+.koulukuvat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.koulukuvat >* {
+    border: solid white 10px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    
+}
+
+figure img {
+    max-width: 100%;
+}
+
+.koulukuvat figcaption {
+    font-size: 1.4rem;
+    background-color: #69013B;
+    color: #F2D0C7;
+    padding: 1rem;
+    border-top: solid white 2px;
+    
+    
+}
+
+ol li {
+    line-height: unset;    
+}

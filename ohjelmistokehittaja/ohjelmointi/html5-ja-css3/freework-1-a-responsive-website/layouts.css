@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 7px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+    font-size: 2rem ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+
+}
+
+
+/*header*/
+header {
+    height: 45rem;
+}
+
+header .bg-image {
+    background-image: url(./images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+
+}
+
+header h1 {
+    padding: 11rem;
+    padding-bottom: 0;
+    font-size: 3.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.3s;
+    border-radius: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    color: #333;
+}
+
+/*section-a*/
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+/*section-b*/
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b {
+    list-style: none;
+}
+
+#section-b li {
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    padding: 1.5rem;
+}
+
+/*section-c*/
+
+#section-c {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+
+/*section-d*/
+
+#section-d .box:first-child {
+    background-color: #2690d4;
+
+}
+
+#section-d .box {
+    padding: 5rem;
+
+}
+
+/*footer*/
+
+footer {
+    padding: 4rem;
+    background-color: #000;
+
+}
+
+footer a {
+
+    color:  #2690d4;
+
+}
+
+
+@media screen and (min-width:769px) {
+
+    html {
+        font-size: 9px;
+    }
+
+
+ }
+
+@media screen and (min-width:1025px) {
+    #section-b li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+    }
+    html {
+        font-size: 12px;
+    }
+
+
+
+}

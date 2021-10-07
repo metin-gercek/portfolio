@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Metin Gercek</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./layout.css">
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <a href="../../../../index.html">
+                <img src="../../../../images/BC-logo-beige.png" alt="">
+            </a>
+        </figure>
+        <h1>Määritellään Git</h1> 
+        <p>
+            <ol class="sisennys-4rem">
+                <li>1. Asenna kannettavallesi "Git"</li>
+                <li>2. Käynnistä Windiws Powershell</li>
+                <li>3. Mene kansioon C:/tiedotot/portfolio </li>
+                <li>4. Anna komento <div> git init </div>(tämä määrittelee git maisterin)</li>
+                <li>5. Mene kansioon O:\intra</li>
+                <li>6. Anna komento <div> git clone c:\tiedostot\portfolio </div>(tällä kloonataan C-levyaseman kansio O-levyasemalle)</li>
+            </ol>
+        </P>
+    </header>
+    <article class="ops">
+        <h1>Muutoksien hoitaminen C-levyasemalta O-levyasemalle</h1>
+        <p>
+            <ol>
+                <li>Lisää kansioon c:\tiedostot\portfolio alikansiot "css" ja "images"</li>
+                <li>Lisää portfoli-kansioon tiedosto index.html, css-kansioon tiedostot layout.css ja reset.css ja talenna kansioon images koulun logo</li>
+                <li>Käynnistä Powershell</li>
+                <li>Mene kansioon C:/tiedotot/portfolio </li>
+                <li>Anna komento <div> git add . </div>(lisätään kaikki muutokset git-stagelle)</li>
+                <li>Anna komento <div> git commit -m "Juuri valmis" </div>(Hyväksytään kaikki stagelle siirretyt muutokset)</li>
+                <li>Mene kansioin O:\intra\portfolio</li>
+                <li>Anna komento <div> git pull c:\tiedostot\portfolio </div>(git tuo kaikki muutokset C-levyn kansiosta O-levyn kansioon.</li>
+            </ol>
+        </P>
+
+    </article>
+    <footer class="ops">
+        <p class="footer-p"> Metin Gercek - <a id="port" href="">Portfolio</a>
+
+        </p>
+
+    </footer>
+    
+</body>
+</html>

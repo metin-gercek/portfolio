@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 768px;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+header, section, footer {
+    border: dotted 1px black;
+    
+    
+}
+header {
+    border-bottom: none;
+}
+
+
+h1 {
+    font-size: 3.2rem;
+    padding: 1rem;
+}
+
+p{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: none;
+
+}
+
+section p {
+    float: left;
+    width: 50%;
+}
+
+
+
+figure img {
+    max-width: 100%;
+    padding: 1rem;
+    object-fit: cover;
+    float: right;
+}

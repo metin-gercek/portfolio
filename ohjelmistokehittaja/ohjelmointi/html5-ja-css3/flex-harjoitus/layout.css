@@ -1,0 +1,167 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    padding: 1rem;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.header {
+    background-color: gold;
+    
+
+}
+
+.nav {
+    margin: 0 -1rem -1rem -1rem;
+
+
+}
+.nav-vanhempi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #F6F6F6;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.nav-vanhempi > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px rgb(196, 186, 186);
+
+
+}
+.main {
+    background-color: darkorange;
+    
+}
+
+.main p {
+    padding: 5px;
+}
+
+.some {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #F6F6F6;
+    text-align: center;
+    
+}
+
+.some > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.face {
+    background-color: #3B5999;
+
+
+}
+
+.twit {
+
+    background-color: #55ACEF;
+}
+
+.email {
+    background-color: gray;
+}
+
+.aside-1 {
+    background-color: mediumseagreen;
+}
+
+.aside-2 {
+    background-color: seagreen;
+}
+
+.footer {
+    background-color: lightgreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    overflow: hidden;
+    
+    
+}
+
+.some a {
+    margin: -1rem;
+   
+
+    
+  
+    
+}
+
+
+
+@media only screen and (min-width: 426px) {
+
+    .wrapper {
+        flex-direction: row;
+    }
+    .aside-1 {
+        flex-basis: auto;
+    }
+    
+    .aside-2 {
+        flex-basis: auto;
+    }
+  }
+
+@media only screen and (min-width: 769px) {
+
+    .main {
+        order: 2;
+        flex-basis: 400px;
+    }
+    .aside-1 {
+        order: 1;
+        flex-basis: 0px;
+    }
+    
+    .aside-2 {
+        order: 3;
+        flex-basis: 0px;
+    }
+    .footer {
+        order: 4;
+    }
+  }

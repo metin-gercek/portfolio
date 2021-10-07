@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-gap: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yksi {
+    grid-area: 1/1/3/3;
+}
+.kaksi {
+    grid-area: 1/3/2/4;
+}
+.kolme {
+    grid-area: 1/4/4/5;
+}
+.nelja {
+    grid-area: 2/3/3/4;
+}
+.viisi {
+    grid-area: 3/1/4/2;
+}
+.kuusi {
+    grid-area: 3/2/6/4;
+}
+.seitseman {
+    grid-area: 4/4/6/5;
+}
+.kahdeksan {
+    grid-area: 4/1/5/2;
+}
+.yhdeksan {
+    grid-area: 5/1/6/2;
+}

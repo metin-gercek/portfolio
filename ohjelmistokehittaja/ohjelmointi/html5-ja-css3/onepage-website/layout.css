@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    scroll-padding-top: 4rem;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.main-manu {
+    background-color: #0b0b0bc5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-manu ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+    
+
+}
+
+.main-manu ol > * {
+
+    /*flex-grow: 1;
+    flex-basis: 0;*/
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+
+}
+
+.main-manu ol > li:first-child {
+    margin-right: auto;
+    margin-left: -2rem;
+    
+}
+#portfolio ol {
+    list-style: decimal;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    padding-top: 1rem;
+    line-height: 150%;
+}
+ol a{
+    text-decoration: none;
+    color: white;
+}
+
+#portfolio {
+    background-image: url("https://source.unsplash.com/1600x900/?city,night");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+   
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.404);
+    
+    margin: 0 2rem 0 2rem;
+    
+    padding: 2rem;
+    
+    
+    
+    
+}
+
+#portfolio p {
+    color: #9C4D1A;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+h1 {
+    color: #9C4D1A;
+    font-size: 2rem;
+    line-height: 150%;
+    padding: 5rem 0 0 0;
+}
+
+h2 {
+    font-size: 2.6rem;
+    color: #9C4D1A;
+    font-weight: bold;
+    padding: 2rem 0 2rem 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+#menneisyys {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+#menneisyys > * {
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding-left: 1rem;
+    
+}
+
+.h2-block {
+    flex-basis: 100%;
+}
+
+.gra-doc-s-wrapper {
+    flex-basis: 0;
+    border: black solid 0.1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.gra-card-body p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.gra-card-body a {
+    color: orange;
+    font-style: italic;
+
+}
+
+.column {
+    float: left;
+    width: 33.333%;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.float-right img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    padding: 0 0 1rem 2rem;
+}
+
+#tulevaisuus {
+   
+    color: white;
+    
+}
+
+#nykyisyys {
+    
+    color: white;
+    
+}
+
+
+.float-left img {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    padding: 0 2rem 1rem 0;
+
+}
+
+.clearfix h2 {
+    flex-basis: 100%;
+}
+
+
+.clearfix p {
+    font-size: 1.4rem;
+    line-height: 120%;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #9C4D1A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  
+  /* Responsive layouts*/ 
+@media screen and (min-width: 426px) {
+
+    .main-manu ol > * {
+        padding: 2rem 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+   
+    #menneisyys > * {
+        flex-grow: 1;
+        flex-basis: 0;
+        padding-left: 1rem;
+    }
+
+
+    input[type=submit] {
+        background-color: #9C4D1A;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 1rem;
+        max-width: fit-content;
+        margin-top: 1rem;
+      
+    }
+    .col-25 {
+        width: 25%;
+        font-size: 1.4rem;
+
+
+    }
+    .col-75 {
+        width: 75%;
+    }
+    #portfolio {
+        background-image: url("https://source.unsplash.com/1600x900/?city,night");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 2rem 1rem;
+        margin-top: 6rem;
+       
+    }
+
+   
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .main-manu {
+        background-color: #0b0b0bc5;
+        position: fixed;
+        top: 0;
+        left: auto;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .float-left img {
+        float: left;
+        max-width: 40%;
+        height: auto;
+        padding: 0 2rem 1rem 0;
+    
+    }
+
+    .float-right img {
+        float: right;
+        max-width: 40%;
+        height: auto;
+        padding: 0 0 1rem 1rem;
+    
+    }
+    #portfolio {
+        background-image: url("https://source.unsplash.com/1600x900/?city,night");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 4rem 2rem;
+        margin-top: 4rem;
+       
+    }
+    
+
+}

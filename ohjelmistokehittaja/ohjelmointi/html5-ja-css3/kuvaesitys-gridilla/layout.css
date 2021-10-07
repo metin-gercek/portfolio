@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 15px;
+
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.yksi {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.kaksi {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.kolme {
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+.nelja {
+    grid-area: 2/1/3/3;
+}
+.viisi {
+    grid-area: 3/1/4/3;
+}
+.kuusi {
+    grid-area: 3/3/4/4;
+}

@@ -1,0 +1,113 @@
+html {}
+
+body {}
+
+section {
+    margin-bottom: 20px;
+    background-color: #bbdeee;
+    border: solid white 1px;
+}
+
+.eka {
+    background-color: #bbdeee;
+    border: solid white 1px;
+}
+
+.toka {
+    background-color: #bbdeee;
+    border: solid black 1px;
+}
+
+.kolmas {
+    border: solid black 1px;
+    background-color: #bbdeee;
+}
+
+#punch {
+    float: left;
+    font-size: 500%;
+    width: 1.2em;
+    text-align: center;
+    padding: 0.1em 0.1em 0;
+    background-color: #3e5b6a;
+    color: white;
+    border: solid white 1px;
+    border-width: 0 0.2em 0.2em 0;
+    margin: 0 0.5em 0.2em 0;
+}
+
+#punch2 {
+    float: left;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    background: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 0 1px 1px 0;
+    padding: 0 10px 5px 0;
+    margin: 0 25px 10px 0;
+}
+
+img {
+    height: 70px;
+    width: 100px;
+}
+
+#ekah1 {
+    text-align: left;
+}
+
+#punch3a {
+    float: left;
+    font-size: 14px;
+    width: 20em;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 0 1px 1px 0;
+    margin: 0 1em 1em 0;
+}
+
+#punch3b {
+    float: right;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
+    width: 25%;
+    text-align: left;
+    text-indent: -0.5em;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    border-width: 1px 0 1px 1px;
+    margin: 0.2em -1px 0.2em 0.5em;
+}
+
+h1 {
+    text-align: right;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: #88AABB;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+p {}
+
+.pieni {}
+
+.oikealle {}
+
+figure {
+    display: block;
+}
+
+figure img {
+    max-width: 100%;
+}

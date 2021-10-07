@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 400px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  background-image: linear-gradient(to bottom right, gainsboro, white);
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.692);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.container .clearfix {
+  padding-bottom: 1rem;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.container .heading {
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.container .image {
+  float: left;
+  margin-right: 1rem;
+  box-sizing: border-box;
+  padding: 5px;
+  max-width: 100%;
+  background-color: white;
+  box-shadow: 0 3px 3px darkgray;
+  border: 1px solid;
+  border-color: lightgray darkgray darkgray lightgray;
+}
+
+.container .text {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.container .heading h1 {
+  font-size: 2.4rem;
+  margin-left: -1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.container .text p {
+  line-height: 150%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.container .reverse .heading {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.container .reverse .image {
+  float: right;
+  margin-left: 1rem;
+  box-sizing: border-box;
+  padding: 5px;
+  max-width: 100%;
+  background-color: white;
+  box-shadow: 0 3px 3px darkgray;
+  border: 1px solid;
+  border-color: lightgray darkgray darkgray lightgray;
+}
+
+.container .reverse .text {
+  float: right;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.container .reverse .heading h1 {
+  font-size: 2.4rem;
+  margin-left: -1.4rem;
+  font-weight: bold;
+  line-height: 150%;
+  padding-left: 1.5rem;
+
+}
+
+.container .reverse .text p {
+  line-height: 150%;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    margin-bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px;
+  }
+}
