@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Grenze&family=Mansalva&family=Roboto&family=Turret+Road&display=swap');
+
+
+
+html {
+   
+    font-size: 10px;
+    
+}
+
+
+button {
+    padding: 6px 8px;
+    background-color: #007BFF;
+    color: white;
+    margin-left: 2rem;
+}
+
+
+
+#lista {
+    font-size: 2em;
+    font-family: 'Courier New';
+    
+}
+
+/*font-family: 'Courier Prime', monospace;
+font-family: 'Grenze', serif;
+font-family: 'Mansalva', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Turret Road', cursive;*/
