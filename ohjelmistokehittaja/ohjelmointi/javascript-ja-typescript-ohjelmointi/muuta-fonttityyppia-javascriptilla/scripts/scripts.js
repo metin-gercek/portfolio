@@ -1,20 +1,15 @@
-function changeStyle() {
-  var elmnt = document.getElementById("lista");
-
-  var listofFont = ["Courier New", "Roboto", "Mansalva", "Grenze", "Turret Road"];
-
-  if(elmnt.style.fontFamily == listofFont[0]){
-    elmnt.style.fontFamily = listofFont[1];
-  } else if (elmnt.style.fontFamily == listofFont[1]) {
-    elmnt.style.fontFamily = listofFont[2];
-  } else if (elmnt.style.fontFamily == listofFont[2]) {
-    elmnt.style.fontFamily = listofFont[3];
-  } else if (elmnt.style.fontFamily == listofFont[3]) {
-    elmnt.style.fontFamily = listofFont[4];
+function changeFont() {
+  var fon = document.getElementById("lista");
+  if (fon.className == "fontCourier") {
+    fon.className = "fontRoboto";
+  } else if (fon.className == "fontRoboto") {
+    fon.className = "fontMansalva";
+  } else if (fon.className == "fontMansalva") {
+    fon.className = "fontGrenze";
+  } else if (fon.className == "fontGrenze") {
+    fon.className = "fontTurret";
   } else {
-    elmnt.style.fontFamily = listofFont[0];
+    fon.className = "fontCourier";
   }
 }
 
-
-//document.getElementById('lista').style.fontFamily = 'Roboto'

@@ -18,13 +18,34 @@ button {
     margin-left: 2rem;
 }
 
-
-
 #lista {
     font-size: 2em;
-    font-family: 'Courier New';
+    
     
 }
+.fontCourier {
+    font-family: 'Courier New';
+    font-size: 200%;
+}
+
+  .fontRoboto {
+    font-family: 'Roboto';
+    font-size: 200%;
+}
+
+.fontMansalva {
+    font-family: 'Mansalva';
+    font-size: 200%;
+}
+.fontGrenze {
+    font-family: 'Grenze';
+    font-size: 200%;
+}
+.fontTurret {
+    font-family: 'Turret Road';
+    font-size: 200%;
+}
+
 
 /*font-family: 'Courier Prime', monospace;
 font-family: 'Grenze', serif;
