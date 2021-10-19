@@ -1,38 +1,44 @@
-@fortawesome/ember-fontawesome;
+@fortawesome /ember-fontawesome;
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.6rem;
-    padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
 }
 
 ul {
-    list-style: disc;
-    padding: 1rem 1rem 1rem 4rem;
-    list-style: 1.5;
+  list-style: disc;
+  padding: 1rem 1rem 1rem 4rem;
+  list-style: 1.5;
 }
 
 h1,
 h2 {
-    font-size: 2.4rem;
-    margin-bottom: 1rem;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
 }
 
 table {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 tr {
-    line-height: 1.5;
-    
+  line-height: 1.5;
 }
 /*tr:nth-child(even) {background-color: red;}*/
 
 td {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
+.dotted {
+  border-bottom: 0.3rem dotted;
+  color: #862922;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
