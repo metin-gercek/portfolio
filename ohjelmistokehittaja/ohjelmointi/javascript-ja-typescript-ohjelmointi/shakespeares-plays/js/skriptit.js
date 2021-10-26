@@ -1,5 +1,9 @@
+document.querySelector("html").style.fontSize = "62.5%";
 document.querySelector("body").style.maxWidth = "1140px";
 document.querySelector("body").style.margin = "auto";
+document.querySelector("body").style.fontFamily = "Verdana, Geneva, Tahoma, sans-serif";
+document.querySelector("body").style.fontSize = "1.6rem";
+document.querySelector("body").style.padding = "1rem";
 
 //luodaan ul class nimi
 var element = document.getElementById("unorderlist");
@@ -21,6 +25,13 @@ for (var i = 0; i < tableRows.length; i++) {
 var linkclass = document.links;
 for (var i = 0; i < linkclass.length; i++) {
   linkclass[i].classList.add("dotted");
+  linkclass[i].style.color = "#862922";
+  linkclass[i].style.fontWeight = "bold";
+  linkclass[i].style.fontStyle = "italic";
+  linkclass[i].style.textDecoration = "none";
+  linkclass[i].style.borderBottom = "0.3rem dotted";
+
+
 }
 
 // flex eka section

@@ -1,14 +1,14 @@
 @fortawesome /ember-fontawesome;
 
-html {
+/*html {
   font-size: 62.5%;
-}
+}*/
 
-body {
+/*body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
   padding: 1rem;
-}
+}*/
 
 ul {
   list-style: disc;
@@ -35,10 +35,10 @@ td {
   padding-right: 1rem;
 }
 
-.dotted {
+/*.dotted {
   border-bottom: 0.3rem dotted;
   color: #862922;
   font-weight: bold;
   font-style: italic;
   text-decoration: none;
-}
+}*/
