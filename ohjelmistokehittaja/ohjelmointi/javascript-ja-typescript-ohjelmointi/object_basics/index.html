@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Object Basics</title>
+  </head>
+  <body>
+    <h1>JavaScript Object Basics</h1>
+    <script>
+      // Object basics
+      const person = {
+        //name: ["Bob", "Smith"],
+        name: {
+          first: "Bob",
+          last: "Smith",
+        },
+        age: 32,
+        gender: "male",
+        interests: ["music", "skiing"],
+        bio: function () {
+          alert(
+            this.name.first +
+              " " +
+              this.name.last +
+              " is " +
+              this.age +
+              " years old. He likes " +
+              this.interests[0] +
+              " and " +
+              this.interests[1] +
+              "."
+          );
+        },
+        greeting: function () {
+          alert("Hi! I'm " + this.name.first + ".");
+        },
+      };
+      console.log(person.name);
+      console.log(person.name.first + " " + person.name.last);
+      console.log(person.name[0]);
+      console.log(person.name.first);
+      console.log(person.name[0] + person.name[1]);
+      console.log(person.age);
+      console.log(person.interests[1]);
+      console.log(person.bio());
+      console.log(person.greeting());
+
+      //Dot notation
+      console.log(person.name.first);
+      console.log(person.name.last);
+      console.log(person.name.first + " " + person.name.last);
+
+      //Bracket notation
+      console.log(person["age"]);
+      console.log(person["name"]["first"] + " " + person["name"]["last"]);
+
+      //Setting object members
+      person.age = 45;
+      person.gender = "female";
+      person["name"]["first"] = "Yoko";
+      person["name"]["last"] = "Ono";
+      person["eyes"] = "brown";
+      person.farewell = function () {
+        alert("Bye everybody!");
+      };
+      console.log(person.name.first + " " + person.name.last);
+      console.log(person["age"]);
+      console.log(person["name"]["first"] + " " + person["name"]["last"]);
+      console.log(person.gender);
+      console.log(person.eyes);
+      console.log(person.farewell());
+
+      let personHeight = "height";
+      let personHeightValue = "1.75m";
+      person[personHeight] = personHeightValue;
+      console.log(person.height);
+
+      let personWeight = "weight";
+      let personWeightValue = "74kg";
+      person[personWeight] = personWeightValue;
+      console.log(person.weight);
+
+      //What is this?
+      const person1 = {
+        name: "Yoko",
+        greeting: function () {
+          alert("Hi! I'm " + this.name + ".");
+        },
+      };
+
+      const person2 = {
+        name: "Lennono",
+        greeting: function () {
+          alert("Hi! I'm " + this.name + ".");
+        },
+      };
+      console.log(person1.greeting());
+      console.log(person2.greeting());
+    </script>
+  </body>
+</html>
