@@ -48,8 +48,8 @@ h2 {
 }
 
 h3 {
-    padding: 0.6rem;
-    padding: 0.6rem;
+    
+    padding: 1rem;
     padding-left: 1rem;
     font-size: 1.6rem;
 
@@ -80,7 +80,7 @@ h3 {
 .sisennys-4rem {
     padding-left: 4rem;
     font-size: 1.4rem;
-    padding-bottom: 0.2rem;
+    
     font-style: italic;
     
 }
