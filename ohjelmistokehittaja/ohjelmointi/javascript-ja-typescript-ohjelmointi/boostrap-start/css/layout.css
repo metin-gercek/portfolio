@@ -1,0 +1,59 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Lisätty jokaisen carousel-kuvan ympärille figure-tag, kuvat responsiivisiksi ja sijoitetty flexin loppuun, kuvien max-height rajattu 32 rem */
+
+figure {
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 32rem;
+}
+/* kuvatekstit sijoitettu kuvan yläreunan, lisätty taustaväri ja määritelty tekstilaatikon korkeus 100% (koko tila) */
+
+.carousel-caption {
+  bottom: unset !important;
+  z-index: 10;
+  top: 0;
+  background-color: hsl(0, 0%, 0%, 10%);
+  padding: 2rem 3rem;
+  right: 0;
+  left: 0;
+  height: 100%;
+}
+
+/* nostettu kuvan ohjausobjektit tekstilaatikon päälle (z-index 11 > 10) */
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  z-index: 11;
+}
+
+/* korkeusmäärittely pois carousel objektista */
+
+.carousel-item {
+  height: unset !important;
+}
+
+.carousel-item > img {
+  height: unset !important;
+}
+
+/* DROPDOWNS säännöt alkavat tästä*/
+
+.dropdown-menu {
+  position: unset;
+  display: none;
+  width: unset;
+  margin: unset;
+}
