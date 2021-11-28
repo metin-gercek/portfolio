@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ja-bootstrap';
+  copyright = 'Made by Metin Gerçek';
 }
