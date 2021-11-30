@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+section {
+    background-color: bisque;
+    padding: 1rem;
+    margin: 1rem;
+}
+section h1 {
+    color: blue;
+}
+
+/*app-serverin säännöt*/
+/*.app-server {
+    background-color: blue;
+}
+.app-server * {
+    color: bisque;
+} */
+
+/*app-servers säännöt*/
+/* .app-servers {
+    background-color: black;
+
+}
+.app-servers * {
+    color: bisque;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
