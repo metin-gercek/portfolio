@@ -1,0 +1,16 @@
+.alert-success {
+    color: #2A5629;
+    background-color: #2a562957;
+    
+}
+
+div h4 {
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+
+div p {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
