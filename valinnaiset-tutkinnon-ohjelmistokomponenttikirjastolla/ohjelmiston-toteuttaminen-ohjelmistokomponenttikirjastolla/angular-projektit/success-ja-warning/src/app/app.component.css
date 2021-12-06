@@ -4,6 +4,7 @@ html {
 
 * {
   box-sizing: border-box;
+  padding: 1rem;
 }
 
 /* Create two equal columns that floats next to each other */
