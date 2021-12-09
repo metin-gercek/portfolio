@@ -1,8 +1,27 @@
 <section class="app-servers">
-    <h1>I'm in the Servers Component</h1>
-    <p>Below this I have 2 Server Components</p>
+
+    <label>Server name</label><br>
+    <!-- <input 
+        type="text" 
+        class="form-control" 
+        (input) = "onUpdateServerName($event)"> -->
+    <br>
+    <input 
+        type="text" 
+        class="form-control" 
+        [(ngModel)]="serverName"><br>
+
+
+    <!-- <h1>I'm in the Servers Component</h1> -->
+    <button class="btn btn-primary" [disabled] = "!allowNewServer" (click) = "onCreateServer()">Add Server</button>
+    <hr>
+    <!-- <p class="sisennys">{{serverName}}</p> -->
+    <p class="sisennys">{{serverCreationStatus}}</p>
+    
+    <!-- <p>{{allowNewServer}} - strıng ınterpolatıon on p-tagin sisällä, tämä näkyy selaimessa</p>
+    <p [innerHTML] = "allowNewServer">Tämä sen sijaan ei näy selaimessa</p> -->
         <app-server></app-server>
-        <app-server></app-server>
+        
     <!-- <section class="app-server"></section>
     <section class="app-server"></section> -->
 </section>

@@ -10,3 +10,7 @@
 .app-servers * {
     color: bisque;
 }
+
+button {
+    background-color: blue;
+}
