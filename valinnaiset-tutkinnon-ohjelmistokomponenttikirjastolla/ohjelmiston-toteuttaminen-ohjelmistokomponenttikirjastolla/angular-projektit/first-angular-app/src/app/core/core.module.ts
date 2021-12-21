@@ -5,7 +5,7 @@ import { DataService } from './data.service';
 import { SorterService } from './sorter.service';
 
 @NgModule({
-    imports: [  ],
+    imports: [ HttpClientModule ],
     providers: [ DataService, SorterService ]
 })
 export class CoreModule { }

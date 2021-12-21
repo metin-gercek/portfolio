@@ -1,25 +1,33 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
-
+import { throwError } from 'rxjs';
 import { ICustomer, IOrder } from '../../app/shared/interfaces';
+import { noUndefined } from '@angular/compiler/src/util';
 
 @Injectable()
 export class DataService {
+    // Use the following properties if running the Docker containers via Docker Compose
+    // customersUrl = 'http://localhost:3000/api/customers';
+    // ordersUrl = 'http://localhost:3000/api/orders';
 
-    baseUrl: string = 'assets/';
-    
+    // Use the following properties if running the app stand-alone with no external dependencies
+    customersUrl = 'assets/customers.json';
+    ordersUrl = 'assets/orders.json';
+    baseUrl!: string;
+
     constructor(private http: HttpClient) { }
 
-    getCustomers() : Observable<ICustomer[]> {
-        return this.http.get<ICustomer[]>(this.baseUrl + 'customers.json')
-            .pipe(
-                catchError(this.handleError)
-            );
+    getCustomers(): Observable<ICustomer[]> {
+      return this.http.get<ICustomer[]>(this.customersUrl)
+        .pipe(
+          catchError(this.handleError)
+        );
+
     }
-    
+
     getCustomer(id: number) : Observable<ICustomer> {
       return this.http.get<ICustomer[]>(this.baseUrl + 'customers.json')
         .pipe(
@@ -43,15 +51,14 @@ export class DataService {
     }
 
 
+    
     private handleError(error: any) {
       console.error('server error:', error);
       if (error.error instanceof Error) {
           const errMessage = error.error.message;
-          return Observable.throw(errMessage);
-          // Use the following instead if using lite-server
-          // return Observable.throw(err.text() || 'backend server error');
+          return throwError(errMessage);
       }
-      return Observable.throw(error || 'Node.js server error');
+      return throwError(error || 'Server error');
     }
 
 }
