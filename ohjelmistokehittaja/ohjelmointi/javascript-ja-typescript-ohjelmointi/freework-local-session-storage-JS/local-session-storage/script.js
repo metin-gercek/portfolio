@@ -22,6 +22,7 @@ val = localStorage.getItem('lastName');
 localStorage.setItem('hobies',JSON.stringify(hobies));
 
 val = JSON.parse(localStorage.getItem('hobies'));
+console.log(val[1]);
 
 console.log(val);
 console.log(localStorage);
