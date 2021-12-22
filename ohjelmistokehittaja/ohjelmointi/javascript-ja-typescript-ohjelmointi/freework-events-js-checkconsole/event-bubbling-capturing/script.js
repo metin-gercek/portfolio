@@ -50,13 +50,13 @@ const container = document.querySelector('.container');
 // },true);
 
 
-// const deleteItems = document.querySelectorAll('.fa-times');
+const deleteItems = document.querySelectorAll('.fa-times');
 
-// deleteItems.forEach(function(item){
-//     item.addEventListener('click',function(e){
-//         console.log(e.target);
-//     })
-// });
+deleteItems.forEach(function(item){
+    item.addEventListener('click',function(e){
+        console.log(e.target);
+    })
+});
 
 const ul = document.querySelector('ul');
 
