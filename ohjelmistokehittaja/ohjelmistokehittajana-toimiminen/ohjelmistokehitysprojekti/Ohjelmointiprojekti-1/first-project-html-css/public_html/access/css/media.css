@@ -1,0 +1,125 @@
+@media screen and (min-width: 965px) {
+  div#container {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 426px) {
+
+  #contact #contactflex > * {
+    flex-basis: 20%;
+  }
+
+  #map {
+    display: block;
+    position: relative;
+    padding-bottom: 40%;
+    padding-left: 20%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  #map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  #contactinfo{
+    padding-top: 10%;
+  }
+  
+}
+
+/* ************ 
+    NAVIGATION MENU 
+    css options for All larges screens
+*/
+@media screen and (min-width: 769px) {
+  nav#navi > div {
+    display: block;
+    padding: 10px 10px;
+  }
+  nav#navi > div:first-child {
+    max-width: 10%;
+  }
+  nav#navi img {
+    max-width: 75%;
+  }
+  nav#navi {
+    display: flex;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav#navi[data-active="false"] div img {
+    margin-left: 0%;
+  }
+  /* If Menu not opend */
+  nav#navi[data-active="false"] div[role="list-menu"] {
+    display: flex;
+  }
+  nav#navi[data-active="false"] div[role="list-menu"] ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav#navi[data-active="false"] div[role="list-menu"] ul li {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  nav#navi[data-active="false"] li.social ul li {
+    margin: 0;
+    padding: 5px;
+  }
+  /* Invisibility mobile buttons */
+  nav#navi[data-active="false"] div i.fas {
+    display: none;
+  }
+}
+
+/* PRIVATYCY */
+@media only screen and (min-width: 768px) {
+  ul#dotted {
+    max-width: 70%;
+  }
+}
+
+/*  *********
+    TABLET */
+
+/*  
+    TABLET END 
+**********/
+
+/*  *********
+    LARGE SCREEN */
+
+/*Reservation Web Screen*/
+@media screen and (min-width: 769px) {
+  .webscreen_reservation {
+    display: block;
+  }
+
+  .reservation_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .reservation_container > * {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .reservation_img {
+    width: 100%;
+    border: solid rgba(255, 255, 255, 0.02);
+    border-radius: 2rem;
+  }
+}
+
+/*  
+    LARGE SCREEN END 
+**********/

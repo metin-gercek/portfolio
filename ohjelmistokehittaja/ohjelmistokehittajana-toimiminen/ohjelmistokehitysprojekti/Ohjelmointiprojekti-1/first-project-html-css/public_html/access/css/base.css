@@ -1,0 +1,51 @@
+/**
+    VARIABLES
+    exaple :
+    elem{
+        color: var(--title-color);
+    }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --title-color   :#B02886;
+    --title2-color  :#79BA51 ;
+    
+    --bg-color  : #CDDDF3;
+    --bg2-color :#DBD1C2;
+
+    --footer-color : #707070;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /* max-width:1140px; */
+    margin: 0 auto;
+    background-color: var(--bg2-color);
+   font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.8rem;
+}
+h1{
+    font-size: 3.2rem;
+    color: var(--title-color);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+h2{}
+img{}
+button{}
+
+/* CONTAINER */
+div#container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+

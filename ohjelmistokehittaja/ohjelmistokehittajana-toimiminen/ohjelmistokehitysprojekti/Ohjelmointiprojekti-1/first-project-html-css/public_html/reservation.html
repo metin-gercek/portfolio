@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./access/css/reset.css" />
+    <link rel="stylesheet" href="./access/css/base.css" />
+    <link rel="stylesheet" href="./access/css/layout.css" />
+    <link rel="stylesheet" href="./access/css/reservation.css">
+    <link rel="stylesheet" href="./access/css/media.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reservation</title>
+  </head>
+  <body class="reservation_body">
+    <div id="container">
+      <nav id="navi" data-active="false">
+        <div>
+          <a href="./index.html"><img src="access/img/logo.png" /></a>
+          <i class="fas fa-bars fa-2x"></i>
+          <i class="fas fa-times fa-2x"></i>
+        </div>
+        <div role="list-menu">
+          <ul>
+            <li><a href="./reservation.html">Reservation</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./privacy.html">Privacy policy</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./index.html#contact">Contact us</a></li>
+            <li class="social">
+              <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <h1>Reservation</h1>
+        <div class="reservation_container">
+          <figure class="webscreen_reservation">
+            <img class="reservation_img" src="./access/img/webscreen_reservation.jpg" alt="">
+          </figure>
+          <form class="form_class" action="">
+            <label for="">Date</label>
+            <input type="date" id="dateid" name="datename" /> <br />
+            <label for="">Time</label>
+            <div class="time_class">
+                <input type="time" name="fromtime" id="fromtimeid" placeholder="from"
+                />
+                <input type="time" name="totime" id="totimeid" placeholder="from" />
+            </div>
+            <br />
+            <div class="counter_container">
+                <label for="">Number of People</label>
+                <input class="counter" type="button" onclick="humanCount.down(this)" value="-" />
+                <input class="counter" type="button" id="result" value="1" />
+                <input class="counter" type="button" onclick="humanCount.add(this)" value="+" />
+            </div>
+            <p class="small_not">You can call us and make a reservation for more than
+              10 people.</p>
+            <br />
+            <button class="phone_btn"><i class="fas fa-phone"></i> 0461234567</button>
+            <label for="">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" /> <br />
+            <label for="">Surname</label>
+            <input type="text" id="surname" placeholder="Enter your surname" />
+            <br />
+            <label for="">Phone Number</label>
+            <input
+              type="text"
+              id="phone"
+              placeholder="(+358) (...)(...)(..)"
+            /><br />
+            <label for="">Choose table</label>
+            <select id="tableno" name="tableno">
+              <option value="table1">Table 1</option>
+              <option value="table2">Table 2</option>
+              <option value="table3">Table 3</option>
+              <option value="table4">Table 4</option>
+              <option value="table5">Table 5</option>
+              <option value="table6">Table 6</option>
+              <option value="table7">Table 7</option>
+              <option value="table8">Table 8</option>
+              <option value="table9">Table 9</option>
+              <option value="table10">Table 10</option>
+              <option value="table11">Table 11</option>
+              <option value="table12">Table 12</option>
+              <option value="table13">Table 13</option>
+              <option value="table14">Table 14</option>
+              <option value="table15">Table 15</option>
+              <option value="table16">Table 16</option>
+          
+            </select><br>
+          
+            <button class="reservation_btn">Submit</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="footer_some">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+        </ul>
+        <p style="padding-bottom:20px"> 
+            &copy by Business College Team 
+            <br/>
+            <br/>Metin Gerçek
+            <br/>Anton Semenov
+            <br/>Tummeli Ruonakoski
+            <br/>Oliver Rutonen
+        </p>
+    </footer>
+    </div>
+    <script>
+        const humanCount = {
+          resultPrint : document.getElementById("result"),
+          max : 10, min : 1,
+          add : function(){
+          if( this.resultPrint.value < this.max ){
+            this.resultPrint.value++;}else{ this.resultPrint.value = this.min;}
+          },
+          down : function(){
+            if( this.resultPrint.value > this.min ){
+            this.resultPrint.value--;}else{ this.resultPrint.value = this.max;}
+          },
+        }
+    </script>
+    <script type="text/javascript" src="access/js/script.js"></script>
+  </body>
+</html>

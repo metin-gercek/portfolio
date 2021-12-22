@@ -1,0 +1,21 @@
+.menu_body {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .img_container {
+    margin: auto;
+  }
+  .menu_page_img {
+    max-width: 100%;
+  }
+  
+  .menu_name {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+  }
+  .menu_content {
+    font-size: 1.8rem;
+    padding: 0.5rem 1rem;
+  }
+  
