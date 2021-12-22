@@ -1,0 +1,6 @@
+simplebanking\ClientRepository.class
+simplebanking\AccountRepository.class
+simplebanking\BankingController.class
+simplebanking\SimpleBankingApplication.class
+simplebanking\Account.class
+simplebanking\Client.class

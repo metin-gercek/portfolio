@@ -1,0 +1,191 @@
+16:02:27.095 [TestRunner thread] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hellomodel.HelloModelTest]
+16:02:27.095 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:02:27.103 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:02:27.135 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hellomodel.HelloModelTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:02:27.143 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hellomodel.HelloModelTest], using SpringBootContextLoader
+16:02:27.151 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hellomodel.HelloModelTest]: class path resource [hellomodel/HelloModelTest-context.xml] does not exist
+16:02:27.151 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hellomodel.HelloModelTest]: class path resource [hellomodel/HelloModelTestContext.groovy] does not exist
+16:02:27.151 [TestRunner thread] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hellomodel.HelloModelTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:02:27.151 [TestRunner thread] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hellomodel.HelloModelTest]: HelloModelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:02:27.199 [TestRunner thread] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hellomodel.HelloModelTest]
+16:02:27.247 [TestRunner thread] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\SpringBootMooc\hbc-2019-wepa-Java21S\osa02-Osa02_03.HelloModel\target\classes\hellomodel\HelloModelApplication.class]
+16:02:27.255 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hellomodel.HelloModelApplication for test class hellomodel.HelloModelTest
+16:02:27.335 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hellomodel.HelloModelTest]: using defaults.
+16:02:27.335 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+16:02:27.343 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74fc8b97, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@621a9abf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6273443b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@328d0da5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@223d9850, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@144431ca, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ceeede5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@365425f8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7865c47a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d1a70dd]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellomodel.HelloModelTest]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellomodel.HelloModelTest]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellomodel.HelloModelTest]
+16:02:27.343 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellomodel.HelloModelTest]
+16:02:27.351 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@457b4153 testClass = HelloModelTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@65a33c92 testClass = HelloModelTest, locations = '{}', classes = '{class hellomodel.HelloModelApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@4720f546 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7a01d446, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2e30fe57, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2e851421, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@73f2e91e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+16:02:27.351 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hellomodel.HelloModelTest]
+16:02:27.351 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hellomodel.HelloModelTest]
+16:02:27.367 [TestRunner thread] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2021-10-19 16:02:27.646  INFO 9580 --- [stRunner thread] hellomodel.HelloModelTest                : Starting HelloModelTest on BC-7ZVJ1B3 with PID 9580 (started by s2100631 in c:\SpringBootMooc\hbc-2019-wepa-Java21S\osa02-Osa02_03.HelloModel)
+2021-10-19 16:02:27.646  INFO 9580 --- [stRunner thread] hellomodel.HelloModelTest                : No active profile set, falling back to default profiles: default
+2021-10-19 16:02:28.912  INFO 9580 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-19 16:02:29.104  INFO 9580 --- [stRunner thread] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-19 16:02:29.248  INFO 9580 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-10-19 16:02:29.248  INFO 9580 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-10-19 16:02:29.264  INFO 9580 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2021-10-19 16:02:29.288  INFO 9580 --- [stRunner thread] hellomodel.HelloModelTest                : Started HelloModelTest in 1.913 seconds (JVM running for 2.497)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {title=[HelloWorld], person=[Robot]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellomodel.HelloModelController
+           Method = public java.lang.String hellomodel.HelloModelController.home(org.springframework.ui.Model,java.lang.String,java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = title
+            value = HelloWorld
+        Attribute = person
+            value = Robot
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>HelloWorld</title>
+    </head>
+
+    <body>
+        <h1>HelloWorld</h1>
+
+        <p>Once upon a time, there was a person called 
+            <span>Robot</span>, who liked to play. As 
+            <span>Robot</span> grew older, a small box was
+            uncovered from the basement of an old abandoned house. The box had 
+            the text <code>Commodore 64</code> written on it --
+            <span>Robot</span> found the box very 
+            interesting, but did not know what to do with it.</p>
+
+        <p>To unravel the mystery, <span>Robot</span> 
+            sought out the owners of the house, and asked them about the box. 
+            They told that it is a sacred relic from ancient times, when people 
+            could conjure things with their hands.</p>
+
+        <p>"<em>Why have I not heard about this before</em>", asked 
+            <span>Robot</span>. "<em>The things that the
+                owners of such relics have conjured are all around us, but we 
+                do not see them anymore as the people from ancient times used 
+                to see them</em>", answered one of the owners. "<em>They are 
+                as much a part of us, as  we are a part of them, hidden in our 
+                midst</em>", continued the other.</p>
+
+        <p>How can something be hidden, but still be there, 
+            <span>Robot</span> could not understand. And 
+            so, the journey began.</p>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {title=[SuperStory], person=[Girl]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = hellomodel.HelloModelController
+           Method = public java.lang.String hellomodel.HelloModelController.home(org.springframework.ui.Model,java.lang.String,java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = title
+            value = SuperStory
+        Attribute = person
+            value = Girl
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>SuperStory</title>
+    </head>
+
+    <body>
+        <h1>SuperStory</h1>
+
+        <p>Once upon a time, there was a person called 
+            <span>Girl</span>, who liked to play. As 
+            <span>Girl</span> grew older, a small box was
+            uncovered from the basement of an old abandoned house. The box had 
+            the text <code>Commodore 64</code> written on it --
+            <span>Girl</span> found the box very 
+            interesting, but did not know what to do with it.</p>
+
+        <p>To unravel the mystery, <span>Girl</span> 
+            sought out the owners of the house, and asked them about the box. 
+            They told that it is a sacred relic from ancient times, when people 
+            could conjure things with their hands.</p>
+
+        <p>"<em>Why have I not heard about this before</em>", asked 
+            <span>Girl</span>. "<em>The things that the
+                owners of such relics have conjured are all around us, but we 
+                do not see them anymore as the people from ancient times used 
+                to see them</em>", answered one of the owners. "<em>They are 
+                as much a part of us, as  we are a part of them, hidden in our 
+                midst</em>", continued the other.</p>
+
+        <p>How can something be hidden, but still be there, 
+            <span>Girl</span> could not understand. And 
+            so, the journey began.</p>
+    </body>
+</html>
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2021-10-19 16:02:29.930  INFO 9580 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

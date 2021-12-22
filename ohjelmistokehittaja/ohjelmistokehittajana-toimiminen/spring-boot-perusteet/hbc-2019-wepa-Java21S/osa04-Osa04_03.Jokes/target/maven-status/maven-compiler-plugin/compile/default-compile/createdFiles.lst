@@ -1,0 +1,8 @@
+jokes\DefaultController.class
+jokes\Joke.class
+jokes\JokeController.class
+jokes\Vote.class
+jokes\VoteService.class
+jokes\VoteRepository.class
+jokes\RefactoringApplication.class
+jokes\JokeService.class

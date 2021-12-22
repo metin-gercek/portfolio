@@ -1,0 +1,11 @@
+pankki\PankkiApplication.class
+pankki\Pankki.class
+pankki\Henkilo.class
+pankki\Konttori.class
+pankki\Tili.class
+pankki\TiliRepository.class
+pankki\KonttoriRepository.class
+pankki\HenkiloRepository.class
+pankki\PankkiRepository.class
+pankki\TiliController.class
+pankki\PankkiController.class

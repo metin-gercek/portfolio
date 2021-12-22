@@ -1,0 +1,7 @@
+sauli,41
+tarja,9
+martti,13
+anton,42
+aamu,0
+lilja,13
+leena,41

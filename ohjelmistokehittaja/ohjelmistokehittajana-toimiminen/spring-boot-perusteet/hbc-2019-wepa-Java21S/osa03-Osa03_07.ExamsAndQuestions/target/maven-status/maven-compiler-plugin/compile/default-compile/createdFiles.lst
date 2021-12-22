@@ -1,0 +1,8 @@
+examsandquestions\ExamRepository.class
+examsandquestions\ExamController.class
+examsandquestions\ExamsAndQuestionsApplication.class
+examsandquestions\Question.class
+examsandquestions\QuestionRepository.class
+examsandquestions\QuestionController.class
+examsandquestions\Exam.class
+examsandquestions\DefaultController.class

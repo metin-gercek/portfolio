@@ -1,0 +1,417 @@
+11:32:31.043 [TestRunner thread] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class examsandquestions.ExamControllerTest]
+11:32:31.049 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:32:31.056 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:32:31.076 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [examsandquestions.ExamControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:32:31.086 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.ExamControllerTest], using SpringBootContextLoader
+11:32:31.089 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [examsandquestions.ExamControllerTest]: class path resource [examsandquestions/ExamControllerTest-context.xml] does not exist
+11:32:31.090 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [examsandquestions.ExamControllerTest]: class path resource [examsandquestions/ExamControllerTestContext.groovy] does not exist
+11:32:31.090 [TestRunner thread] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [examsandquestions.ExamControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:32:31.091 [TestRunner thread] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [examsandquestions.ExamControllerTest]: ExamControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:32:31.130 [TestRunner thread] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [examsandquestions.ExamControllerTest]
+11:32:31.205 [TestRunner thread] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\SpringBootMooc\hbc-2019-wepa-Java21S\osa03-Osa03_07.ExamsAndQuestions\target\classes\examsandquestions\ExamsAndQuestionsApplication.class]
+11:32:31.208 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.ExamControllerTest
+11:32:31.283 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [examsandquestions.ExamControllerTest]: using defaults.
+11:32:31.283 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:32:31.295 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49458a23, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5d22988d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@9bc39ba, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54a06bc4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31d1e7e1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@787ef7a6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10e760fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@474ec769, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@791ede8e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7652d5cc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d199b4c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6cdd6a09]
+11:32:31.297 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [examsandquestions.ExamControllerTest]
+11:32:31.298 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [examsandquestions.ExamControllerTest]
+11:32:31.298 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [examsandquestions.ExamControllerTest]
+11:32:31.298 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [examsandquestions.ExamControllerTest]
+11:32:31.302 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@573ed0cd testClass = ExamControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@9f09ba1 testClass = ExamControllerTest, locations = '{}', classes = '{class examsandquestions.ExamsAndQuestionsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@44e8a88e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4c89b07d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6be3866d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67b26ae6], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+11:32:31.303 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [examsandquestions.ExamControllerTest]
+11:32:31.303 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [examsandquestions.ExamControllerTest]
+11:32:31.320 [TestRunner thread] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2021-11-10 11:32:31.605  INFO 3972 --- [stRunner thread] examsandquestions.ExamControllerTest     : Starting ExamControllerTest on BC-7ZVJ1B3 with PID 3972 (started by s2100631 in c:\SpringBootMooc\hbc-2019-wepa-Java21S\osa03-Osa03_07.ExamsAndQuestions)
+2021-11-10 11:32:31.607  INFO 3972 --- [stRunner thread] examsandquestions.ExamControllerTest     : No active profile set, falling back to default profiles: default
+2021-11-10 11:32:32.282  INFO 3972 --- [stRunner thread] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:32:32.348  INFO 3972 --- [stRunner thread] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2021-11-10 11:32:32.747  INFO 3972 --- [stRunner thread] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cf50945] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:32:32.948  INFO 3972 --- [stRunner thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-10 11:32:33.111  INFO 3972 --- [stRunner thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-10 11:32:33.189  INFO 3972 --- [stRunner thread] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:32:33.253  INFO 3972 --- [stRunner thread] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2021-11-10 11:32:33.255  INFO 3972 --- [stRunner thread] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-10 11:32:33.381  INFO 3972 --- [stRunner thread] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-10 11:32:33.644  INFO 3972 --- [stRunner thread] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-10 11:32:34.286  INFO 3972 --- [stRunner thread] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:32:35.196  INFO 3972 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:32:35.246  WARN 3972 --- [stRunner thread] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:32:35.664  INFO 3972 --- [stRunner thread] examsandquestions.ExamControllerTest     : Started ExamControllerTest in 4.339 seconds (JVM running for 4.941)
+2021-11-10 11:32:35.763  INFO 3972 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-10 11:32:35.763  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-10 11:32:35.777  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 14 ms
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+2021-11-10 11:32:35.960  INFO 3972 --- [stRunner thread] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+2021-11-10 11:32:36.428  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.ExamControllerTest], using SpringBootContextLoader
+2021-11-10 11:32:36.428  INFO 3972 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [examsandquestions.ExamControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 11:32:36.429  INFO 3972 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [examsandquestions.ExamControllerTest]: ExamControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 11:32:36.430  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.ExamControllerTest
+2021-11-10 11:32:36.431  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-10 11:32:36.431  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@129f397b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ef969bf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20ee095, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4bc8fd0e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@207751ed, org.springframework.test.context.transaction.TransactionalTestExecutionListener@759670cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@693ca2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@cc5812c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@16a74160, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50715b61, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1934f1e1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39d8cf0a]
+2021-11-10 11:32:36.435  INFO 3972 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-10 11:32:36.435  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-10 11:32:36.438  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+2021-11-10 11:32:36.748  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.QuestionControllerTest], using SpringBootContextLoader
+2021-11-10 11:32:36.749  INFO 3972 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [examsandquestions.QuestionControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 11:32:36.749  INFO 3972 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [examsandquestions.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 11:32:36.752  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.QuestionControllerTest
+2021-11-10 11:32:36.753  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-10 11:32:36.754  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@40e82c21, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b08d63, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6bc82bcc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e18f65c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f10529a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b4f058e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61f3d160, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68d06114, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@25197a16, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1649784e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69cec336, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@27dd7da]
+2021-11-10 11:32:36.756  INFO 3972 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-10 11:32:36.756  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-10 11:32:36.758  INFO 3972 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+2021-11-10 11:32:36.808  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.X_ExamsAndQuestionsTest], using SpringBootContextLoader
+2021-11-10 11:32:36.809  INFO 3972 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [examsandquestions.X_ExamsAndQuestionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 11:32:36.809  INFO 3972 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [examsandquestions.X_ExamsAndQuestionsTest]: X_ExamsAndQuestionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 11:32:36.811  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.X_ExamsAndQuestionsTest
+2021-11-10 11:32:36.812  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-10 11:32:36.812  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59ce7509, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4265c49a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@10b79a5b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1617af21, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c5bf6d7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@50f6a4d2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7cbf99d5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@577a4fc4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3474e6b2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@51c114da, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@51b04e06, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54313f9b]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2021-11-10 11:32:36.887  INFO 3972 --- [stRunner thread] e.X_ExamsAndQuestionsTest                : Starting X_ExamsAndQuestionsTest on BC-7ZVJ1B3 with PID 3972 (started by s2100631 in c:\SpringBootMooc\hbc-2019-wepa-Java21S\osa03-Osa03_07.ExamsAndQuestions)
+2021-11-10 11:32:36.887  INFO 3972 --- [stRunner thread] e.X_ExamsAndQuestionsTest                : No active profile set, falling back to default profiles: default
+2021-11-10 11:32:37.031  INFO 3972 --- [stRunner thread] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 11:32:37.046  INFO 3972 --- [stRunner thread] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 2 repository interfaces.
+2021-11-10 11:32:37.124  INFO 3972 --- [stRunner thread] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cf50945] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 11:32:37.381  INFO 3972 --- [stRunner thread] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-11-10 11:32:37.415  INFO 3972 --- [stRunner thread] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-10 11:32:37.416  INFO 3972 --- [stRunner thread] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-11-10 11:32:37.427  INFO 3972 --- [stRunner thread] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk-11.0.12.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Java\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\s2100631\AppData\Local\Microsoft\WindowsApps;C:\Users\s2100631\AppData\Local\Programs\Microsoft VS Code\bin;C:\Git\cmd;C:\Users\s2100631\AppData\Local\GitHubDesktop\bin;.]
+2021-11-10 11:32:37.585  INFO 3972 --- [stRunner thread] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-10 11:32:37.585  INFO 3972 --- [stRunner thread] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 696 ms
+2021-11-10 11:32:37.730  INFO 3972 --- [stRunner thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-10 11:32:37.731  INFO 3972 --- [stRunner thread] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-10 11:32:37.746  INFO 3972 --- [stRunner thread] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-10 11:32:37.753  INFO 3972 --- [stRunner thread] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-10 11:32:37.836  INFO 3972 --- [stRunner thread] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:32:38.113  INFO 3972 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:32:38.125  WARN 3972 --- [stRunner thread] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-10 11:32:38.570  INFO 3972 --- [stRunner thread] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57835 (http) with context path ''
+2021-11-10 11:32:38.571  INFO 3972 --- [stRunner thread] e.X_ExamsAndQuestionsTest                : Started X_ExamsAndQuestionsTest in 1.711 seconds (JVM running for 7.847)
+2021-11-10 11:32:39.388  INFO 3972 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 11:32:39.388  INFO 3972 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-10 11:32:39.405  INFO 3972 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-11-10 11:32:39.415  INFO 3972 --- [o-auto-1-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+2021-11-10 11:32:39.687  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.X_ExamsAndQuestionsTest], using SpringBootContextLoader
+2021-11-10 11:32:39.688  INFO 3972 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [examsandquestions.X_ExamsAndQuestionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 11:32:39.688  INFO 3972 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [examsandquestions.X_ExamsAndQuestionsTest]: X_ExamsAndQuestionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 11:32:39.690  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.X_ExamsAndQuestionsTest
+2021-11-10 11:32:39.691  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-10 11:32:39.691  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ca6db36, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33a7570d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@137ad9a8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@79f7d1d2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@372cab1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a64faed, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4f96c590, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@828e4f1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1d1a8007, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3004a2db, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49c74b0e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68731ab]
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+2021-11-10 11:32:39.811  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [examsandquestions.X_ExamsAndQuestionsTest], using SpringBootContextLoader
+2021-11-10 11:32:39.812  INFO 3972 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [examsandquestions.X_ExamsAndQuestionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 11:32:39.812  INFO 3972 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [examsandquestions.X_ExamsAndQuestionsTest]: X_ExamsAndQuestionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 11:32:39.814  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration examsandquestions.ExamsAndQuestionsApplication for test class examsandquestions.X_ExamsAndQuestionsTest
+2021-11-10 11:32:39.815  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-11-10 11:32:39.815  INFO 3972 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@408a0798, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@664f95bc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@30e38e00, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40c21bb1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@506472f6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a1cff33, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66a3ebfe, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@366c6b08, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@456c4cf1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6824c608, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@11a13ce9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@444031fe]
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into question (content, title, id) values (?, ?, ?)
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into exam (exam_date, subject, id) values (?, ?, ?)
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+Hibernate: select exam0_.id as id1_0_, exam0_.exam_date as exam_dat2_0_, exam0_.subject as subject3_0_ from exam exam0_
+Hibernate: select question0_.id as id1_2_, question0_.content as content2_2_, question0_.title as title3_2_ from question question0_
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select exam0_.id as id1_0_0_, exam0_.exam_date as exam_dat2_0_0_, exam0_.subject as subject3_0_0_ from exam exam0_ where exam0_.id=?
+Hibernate: select questions0_.exams_id as exams_id1_1_0_, questions0_.questions_id as question2_1_0_, question1_.id as id1_2_1_, question1_.content as content2_2_1_, question1_.title as title3_2_1_ from exam_questions questions0_ inner join question question1_ on questions0_.questions_id=question1_.id where questions0_.exams_id=?
+Hibernate: select question0_.id as id1_2_0_, question0_.content as content2_2_0_, question0_.title as title3_2_0_ from question question0_ where question0_.id=?
+Hibernate: insert into exam_questions (exams_id, questions_id) values (?, ?)
+2021-11-10 11:32:40.099  WARN 3972 --- [o-auto-1-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2021-11-10 11:32:40.099 ERROR 3972 --- [o-auto-1-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : NULL not allowed for column "EXAM_ID"; SQL statement:
+insert into exam_questions (exams_id, questions_id) values (?, ?) [23502-197]
+2021-11-10 11:32:40.102  INFO 3972 --- [o-auto-1-exec-7] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2021-11-10 11:32:40.102 ERROR 3972 --- [o-auto-1-exec-7] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-11-10 11:32:40.110 ERROR 3972 --- [o-auto-1-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLException: NULL not allowed for column "EXAM_ID"; SQL statement:
+insert into exam_questions (exams_id, questions_id) values (?, ?) [23502-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:374) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.table.Table.validateConvertUpdateSequence(Table.java:798) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:177) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.command.dml.Insert.update(Insert.java:134) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.command.Command.executeUpdate(Command.java:261) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:199) ~[h2-1.4.197.jar:1.4.197]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:153) ~[h2-1.4.197.jar:1.4.197]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:45) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1340) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.action.internal.CollectionUpdateAction.execute(CollectionUpdateAction.java:80) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532) ~[spring-orm-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746) ~[spring-tx-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714) ~[spring-tx-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533) ~[spring-tx-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304) ~[spring-tx-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at examsandquestions.ExamController$$EnhancerBySpringCGLIB$$924411bb.addQuestionToExam(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2021-11-10 11:32:40.181  INFO 3972 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:32:40.181  INFO 3972 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-10 11:32:40.182  INFO 3972 --- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:32:40.182  INFO 3972 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-10 11:32:40.186  INFO 3972 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-10 11:32:40.186  INFO 3972 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-10 11:32:40.189  INFO 3972 --- [       Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-10 11:32:40.189  INFO 3972 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
