@@ -1,0 +1,54 @@
+<html>
+
+    <head>    
+        <title>Jquery</title>   
+     <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    </head>
+
+    <body>
+        
+        <p>Web Development</p>      
+     
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        
+        <button id="toggle">Toggle</button>
+        
+        <script> 
+          
+            $(document).ready(function(){
+                
+                
+               
+                $("#hide").click(function(){
+                    
+                    $("p").hide(3000);
+                    
+                });
+                
+                $("#show").click(function(){
+                    
+                    $("p").show(1000,function(){
+                        alert("paragraph shown");
+                    });
+                    
+                });
+                
+                $("#toggle").click(function(){
+                    
+                    $("p").toggle("slow");
+                    
+                });
+                
+                
+                
+            });
+            
+            
+        </script>
+        
+    </body>
+
+</html>

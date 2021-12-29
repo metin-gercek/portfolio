@@ -1,0 +1,47 @@
+<html>
+
+    <head>    
+        <title>Jquery</title>   
+     <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    </head>
+
+    <body>
+        
+        <form>
+            
+            <p>
+                Name: <input class="control" type="text">
+            </p>
+            <p>
+                Hobbies:  <select class="control">
+                            <option value="spor" selected="selected">Sport</option>
+                            <option value="sinema">Cinema</option>
+                          </select>
+           </p>
+            
+        </form>
+        
+     
+        <script>            
+            
+          
+            $(document).ready(function(){
+                
+                
+                $(".control").click(function(){                    
+                    
+                     console.log($(this).val());
+                   
+                });
+                
+                
+            });
+            
+            
+        </script>
+        
+    </body>
+
+</html>
