@@ -1,0 +1,98 @@
+<html>
+
+<head>
+	<title>Jquery</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0
+		}
+
+		#message-box {
+			background-color: green;
+			text-align: center;
+			color: white;
+
+		}
+
+		#header {
+			cursor: pointer;
+			height: 25px;
+			padding: 10px;
+			border-bottom: 1px solid #fff;
+		}
+
+		#content {
+			height: 200px;
+			padding: 10px;
+			display: none;
+		}
+
+		#close {
+			float: right;
+
+		}
+
+	</style>
+
+	<script>
+		$(function() {
+
+			$("#header").click(function() {
+
+				$("#content").toggle("slow");
+
+			});
+
+			$("#close").click(function() {
+
+				$("#message-box").hide("slow");
+
+			});
+
+			
+			
+			$('#close').hover(
+				
+               function() {
+					$(this).css({"color":"black"});
+				},
+
+				function() {
+					$(this).css({"color":"white"});
+				}	
+            );		
+
+
+		});
+
+	</script>
+
+
+
+</head>
+
+<body>
+
+
+	<div id="message-box">
+
+		<div id="header">
+
+			<span id="close">X</span> You have a message
+		</div>
+		<div id="content">
+			This is an important message
+		</div>
+
+
+	</div>
+
+
+
+
+</body>
+
+</html>
