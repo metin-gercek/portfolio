@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Movie } from '../movie';
-import { Movies } from '../movie.datasource';
+import { MovieService } from '../movie.service';
 
 @Component({
   selector: 'movies',
@@ -10,7 +10,7 @@ import { Movies } from '../movie.datasource';
 export class MoviesComponent implements OnInit {
   title = 'Movie List';
   
-  movies = Movies;
+  movies!: Movie[];
   selectedMovie!: Movie;
 
   getTitle() {
@@ -21,9 +21,24 @@ export class MoviesComponent implements OnInit {
     this.selectedMovie = movie;
   }
 
-  constructor() { }
+  constructor(private movieService:MovieService) {
+
+  }
 
   ngOnInit(): void {
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    //Add 'implements OnInit' to the class.
+    this.getMovies();
   }
+
+  getMovies(): void {
+    this.movieService.getMovies()
+      .subscribe(movies => {
+        this.movies = movies;
+      });
+          
+  }
+
+ 
 
 }

@@ -1,20 +1,4 @@
-<div class="card" *ngIf="selectedMovie">
-    <div class="card-body">
-        <span class="bagde bg-warning" >
-            id: {{ selectedMovie.id }} name: {{ selectedMovie.name}}
-        </span>
-        <div class="input-group">
-            <input type="text" [(ngModel)]="selectedMovie.name" class="form-control">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button">Update
-
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
+<movie-detail [movie]="selectedMovie" ></movie-detail>
 <div class="card">
     <div class="card-header">
         {{ title }}
