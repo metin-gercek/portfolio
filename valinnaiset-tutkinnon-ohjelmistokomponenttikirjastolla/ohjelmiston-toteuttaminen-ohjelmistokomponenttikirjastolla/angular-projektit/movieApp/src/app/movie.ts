@@ -1,4 +1,6 @@
 export class Movie {
     id!: number;
-    name!: String;
+    name!: string;
+    description!: string;
+    imageUrl!:string;
 }
