@@ -10,7 +10,22 @@ import { ProductRepository } from './repository.model';
 export class ProductComponent {
 
   model: ProductRepository = new ProductRepository();
+  disabled = false;
   constructor() { }
 
+  getClasses(id: number) : string {
+    let product = this.model.getProductById(id);
+    return (product.price <= 1000 ? "bg-info text-white": "bg-secondary") + " m-2 p-2";
+  }
+
   product: Product = this.model.getProductById(1);
+
+  getClassMap(id: number): Object {
+    let product = this.model.getProductById(id);
+    return {
+      "bg-info": product.price <=1000,
+      "bg-secondary": product.price > 1000,
+      "text-center text-white": product.name == "Samsung Z"
+    }
+  }
 }
