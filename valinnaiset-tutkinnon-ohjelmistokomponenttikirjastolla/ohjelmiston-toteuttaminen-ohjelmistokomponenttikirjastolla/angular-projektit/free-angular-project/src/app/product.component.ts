@@ -28,4 +28,15 @@ export class ProductComponent {
       "text-center text-white": product.name == "Samsung Z"
     }
   }
+
+  color: string = this.model.getProductById(1).price <= 1000? "red": "blue";
+  fontSize: string = "25px";
+
+  getStyles(id: number) {
+    let product = this.model.getProductById(id);
+    return {
+      fontSize: "25px",
+      color: product.price <= 1000 ? "green" : "red"
+    }
+  }
 }

@@ -19,8 +19,8 @@
 <button class="btn btn-primary disabled" [class.disabled] = "disabled" >Submit</button>
 
 <div class= "m-2 p-2" [ngClass]="getClassMap(1)">
-    First item at catalog is {{ model.getProductById(1).name }}
+    <span [style.color] = "color">First item</span> at catalog is {{ model.getProductById(1).name }}
 </div>
 <div class= "m-2 p-2" [ngClass]="getClassMap(2)">
-    Second item at catalog is {{ model.getProductById(1).name }}
+    <span [ngStyle]="getStyles(2)">Second item</span> at catalog is {{ model.getProductById(1).name }}
 </div>
