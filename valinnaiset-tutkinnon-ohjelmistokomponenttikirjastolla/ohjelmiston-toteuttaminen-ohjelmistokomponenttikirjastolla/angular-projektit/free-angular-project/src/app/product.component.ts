@@ -48,4 +48,11 @@ export class ProductComponent {
   onDivClicked() {
     console.log('div was clicked');
   }
+
+  values = '';
+  onKeyUp(email: any)  {
+    // this.values += event.target.value;
+      console.log(email);
+    
+  }
 }

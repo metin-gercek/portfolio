@@ -1,6 +1,10 @@
-<div class="bg-primary text-white m-2 p-2">
+
+<input #email (keyup.enter)="onKeyUp(email.value)"/>
+
+
+<!-- <div class="bg-primary text-white m-2 p-2">
     There are {{ model.getProducts().length }} products in the repository.
-</div>
+</div> -->
 
 <!-- <div>
     <h2> {{ product.name  }}</h2>
@@ -9,7 +13,7 @@
     <img [src]="'assets/img/'+product.imageUrl">
 </div> -->
 
-<div [class]= "getClasses(1)">
+<!-- <div [class]= "getClasses(1)">
     First item at catalog is {{ model.getProductById(1).name }}
 </div>
 <div [class]= "getClasses(5)">
@@ -28,4 +32,4 @@
 <div (click)= "onDivClicked()" style="width: 250px; height: 250px; background-color: aqua;">
     <button name="btn1" class="btn btn-primary" (click)="onSubmit($event)">Submit</button>
     <button name="btn2" class="btn btn-primary" (click)="onSubmit($event)">Submit</button>
-</div>
+</div> -->
