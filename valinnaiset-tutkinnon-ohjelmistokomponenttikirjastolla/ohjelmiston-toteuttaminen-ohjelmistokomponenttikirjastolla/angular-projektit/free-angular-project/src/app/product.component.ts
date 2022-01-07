@@ -39,4 +39,13 @@ export class ProductComponent {
       color: product.price <= 1000 ? "green" : "red"
     }
   }
+
+  onSubmit($event: any) {
+    $event.stopPropagation();
+    console.log('button was clicked');
+    console.log($event);
+  }
+  onDivClicked() {
+    console.log('div was clicked');
+  }
 }

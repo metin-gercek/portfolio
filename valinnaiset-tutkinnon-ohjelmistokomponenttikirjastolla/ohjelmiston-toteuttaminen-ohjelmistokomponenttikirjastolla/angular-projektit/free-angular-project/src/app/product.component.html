@@ -24,3 +24,8 @@
 <div class= "m-2 p-2" [ngClass]="getClassMap(2)">
     <span [ngStyle]="getStyles(2)">Second item</span> at catalog is {{ model.getProductById(1).name }}
 </div>
+
+<div (click)= "onDivClicked()" style="width: 250px; height: 250px; background-color: aqua;">
+    <button name="btn1" class="btn btn-primary" (click)="onSubmit($event)">Submit</button>
+    <button name="btn2" class="btn btn-primary" (click)="onSubmit($event)">Submit</button>
+</div>
