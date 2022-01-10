@@ -1,4 +1,18 @@
-<div *ngIf="model.getProducts().length>0; then productList else noProducts">
+<div [ngSwitch]= "model.getProductCount()"  class="bg-info m-2 p-2">
+    <span *ngSwitchCase = "0">There are no products</span>
+    <span *ngSwitchCase = "1">There are 1 product</span>
+    <span *ngSwitchCase = "2">There are 2 products</span>
+    <span *ngSwitchDefault>There are many products</span>
+</div>
+<div [ngSwitch]= "model.getProductById(2).name"  class="bg-info m-2 p-2">
+    <span *ngSwitchCase = "productName">Samsung s21</span>
+    <span *ngSwitchCase = "'Samsung Z'">Samsung Z</span>
+    <span *ngSwitchCase = "'Samsung Galaxy Note'">Samsung Galaxy Note</span>
+    <span *ngSwitchDefault>Other Product</span>
+    
+</div>
+
+<!-- <div *ngIf="model.getProducts().length>0; then productList else noProducts">
     
 </div>
 
@@ -12,7 +26,7 @@
 
 <div [hidden]= "model.getProducts().length==0" class="bg-primary text-white m-2 p-1">There are {{ model.getProducts().length }} products in the repository.</div>
 <div [hidden]= "model.getProducts().length!=0" class="bg-primary text-white m-2 p-1">There are no products in the repository.</div>
-
+ -->
 
 <!-- <input #email (keyup.enter)="onKeyUp(email.value)"/> -->
 

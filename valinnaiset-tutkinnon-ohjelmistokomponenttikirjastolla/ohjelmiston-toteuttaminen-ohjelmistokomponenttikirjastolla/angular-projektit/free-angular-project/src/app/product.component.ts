@@ -10,6 +10,7 @@ import { ProductRepository } from './repository.model';
 export class ProductComponent {
 
   model: ProductRepository = new ProductRepository();
+  productName: string = this.model.getProductById(1).name;
 
   email = "email@gmail.com";
   onKeyUp()  {
