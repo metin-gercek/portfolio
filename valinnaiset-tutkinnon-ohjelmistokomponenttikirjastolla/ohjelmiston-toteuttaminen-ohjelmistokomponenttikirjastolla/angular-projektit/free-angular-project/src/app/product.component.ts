@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './product.model';
 
 import { ProductRepository } from './repository.model';
 
@@ -11,7 +12,17 @@ export class ProductComponent {
 
   model: ProductRepository = new ProductRepository();
   productName: string = this.model.getProductById(1).name;
+  addProduct(){
+    this.model.addProduct(new Product(6, "Samsung S19", "good phone", "4.jpg", 800));
+  }
 
+  deleteProduct(product: Product) {
+    this.model.deleteProduct(product);
+  }
+
+  updateProduct(product:Product) {
+    product.name = "updated";
+  }
   email = "email@gmail.com";
   onKeyUp()  {
     // this.values += event.target.value;
