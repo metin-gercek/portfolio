@@ -1,4 +1,15 @@
-<div [ngSwitch]= "model.getProductCount()"  class="bg-info m-2 p-2">
+<ul class="list-group m-5 ">
+    <li class="list-group-item" *ngFor="let product of model.getProducts(); index as i; first as isFirst; last as isLast; odd as isOdd; even as isEven">
+        {{ i+1 }} - {{ product.name}}
+        <span class="badge bg-primary" *ngIf="isFirst">First item</span>
+        <span class="badge bg-success" *ngIf="isLast">Last item</span>
+        <span class="badge bg-danger" *ngIf="isOdd"> Odd item</span>
+        <span class="badge bg-warning" *ngIf="isEven">Even item</span>
+    </li>
+</ul>
+
+
+<!-- <div [ngSwitch]= "model.getProductCount()"  class="bg-info m-2 p-2">
     <span *ngSwitchCase = "0">There are no products</span>
     <span *ngSwitchCase = "1">There are 1 product</span>
     <span *ngSwitchCase = "2">There are 2 products</span>
@@ -10,7 +21,7 @@
     <span *ngSwitchCase = "'Samsung Galaxy Note'">Samsung Galaxy Note</span>
     <span *ngSwitchDefault>Other Product</span>
     
-</div>
+</div> -->
 
 <!-- <div *ngIf="model.getProducts().length>0; then productList else noProducts">
     
