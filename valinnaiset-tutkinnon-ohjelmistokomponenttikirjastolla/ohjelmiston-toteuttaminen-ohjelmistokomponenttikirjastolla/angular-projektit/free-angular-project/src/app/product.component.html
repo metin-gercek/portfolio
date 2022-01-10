@@ -1,4 +1,32 @@
-<div class="m-5">
+<ng-template 
+    [ngTemplateOutlet]= "productList" 
+    [ngTemplateOutletContext] ="{products: model.getProducts() }">
+</ng-template>
+<ng-template [ngTemplateOutlet]= "productList" [ngTemplateOutletContext] ="{products: model.getProducts() }">
+</ng-template>
+
+
+
+
+<ng-template #productList let-products="products">
+    <div class="m-5">
+        <ul class="list-group mt-2">
+            <li  *ngFor="let product of products;" class="list-group-item">
+                {{ product.name }}
+            </li>
+        </ul>
+    </div>
+</ng-template>
+
+
+
+
+
+
+
+
+
+<!-- <div class="m-5">
     <button class="btn btn-primary" (click)=addProduct()>Add Product</button>
     <ul class="list-group mt-2">
         <li class="list-group-item" *ngFor="let product of model.getProducts(); index as i; first as isFirst; last as isLast; odd as isOdd; even as isEven">
@@ -11,7 +39,10 @@
             <button class="btn btn-warning m-3" (click)="updateProduct(product)">Update</button>
         </li>
     </ul>
-</div>
+</div> -->
+
+
+
 
 <!-- <div [ngSwitch]= "model.getProductCount()"  class="bg-info m-2 p-2">
     <span *ngSwitchCase = "0">There are no products</span>
