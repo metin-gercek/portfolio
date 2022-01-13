@@ -9,6 +9,6 @@ import { OrdersRoutingModule } from './orders-routing.module';
 
 @NgModule({
     imports: [ CommonModule, FormsModule, SharedModule, OrdersRoutingModule ],
-    declarations: [ OrdersComponent ]
+    declarations: [ ]
 })
 export class OrdersModule { }
