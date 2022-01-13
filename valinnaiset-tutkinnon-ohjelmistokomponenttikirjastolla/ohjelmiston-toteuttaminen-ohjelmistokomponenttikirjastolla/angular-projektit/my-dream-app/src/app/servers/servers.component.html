@@ -16,11 +16,17 @@
     <button class="btn btn-primary" [disabled] = "!allowNewServer" (click) = "onCreateServer()">Add Server</button>
     <hr>
     <!-- <p class="sisennys">{{serverName}}</p> -->
-    <p class="sisennys">{{serverCreationStatus}}</p>
+    <p *ngIf="serverCreated" class="sisennys">Server was created! Server name is {{ serverName }}</p>
+    <ng-template #noServer>
+        <p>No Server created!</p>
+    </ng-template>
     
-    <!-- <p>{{allowNewServer}} - strıng ınterpolatıon on p-tagin sisällä, tämä näkyy selaimessa</p>
+    
+    <!-- <p>{{allowNewServer}} - string interpolatıon on p-tagin sisällä, tämä näkyy selaimessa</p>
     <p [innerHTML] = "allowNewServer">Tämä sen sijaan ei näy selaimessa</p> -->
-        <app-server></app-server>
+        <app-server *ngFor="let server of servers"></app-server>
+        <app-server *ngFor="let server of servers"></app-server>
+        
         
     <!-- <section class="app-server"></section>
     <section class="app-server"></section> -->
