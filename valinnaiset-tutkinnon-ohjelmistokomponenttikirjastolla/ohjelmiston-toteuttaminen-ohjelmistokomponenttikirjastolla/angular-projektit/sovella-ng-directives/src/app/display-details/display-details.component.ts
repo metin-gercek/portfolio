@@ -26,4 +26,5 @@ export class DisplayDetailsComponent implements OnInit {
     console.log(this.countArray);
   
   }
+  
 }

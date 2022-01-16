@@ -15,6 +15,6 @@
         veritatis?
       </p>
       <!-- <p>{{ counts }}</p> -->
-      <p class="" *ngFor="let n of countArray; index as i">{{ countArray[i] }}</p>
+      <p class="p-3 mb-2" *ngFor="let n of countArray; index as i" [ngClass]="{'bg-dark text-white': n%2 == 1 && n>3}" >{{ countArray[i] }}</p>
     </div>
 </div>
