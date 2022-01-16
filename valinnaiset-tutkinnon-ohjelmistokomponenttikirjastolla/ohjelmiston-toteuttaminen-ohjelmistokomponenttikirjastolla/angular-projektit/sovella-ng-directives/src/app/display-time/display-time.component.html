@@ -1,0 +1,21 @@
+<div class="text-center p-5">
+    <button
+      class="bagde bg-warning btn btn-primary text-dark "
+      (click)="toggleDisplay()"
+      (click)="saveTime()"
+      
+    >
+      Display Time
+    </button>
+    <div class="p-3">
+      <p class="p-3 mb-2 bg-secondary text-white " *ngIf="!isShow">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae labore
+        dignissimos nostrum voluptas quas hic obcaecati suscipit eveniet, sequi modi
+        necessitatibus excepturi harum cum ad consectetur, ea impedit. Est,
+        veritatis?
+      </p>
+      <!-- <p>{{ counts }}</p> -->
+      <p class="p-3 mb-2" *ngFor="let n of countTime; index as i" [ngClass]="{'bg-dark text-white': countTime.indexOf(n) > 3 && countTime.indexOf(n) % 2 == 0 }" >{{ countTime[i] }}</p>
+    </div>
+</div>
+
