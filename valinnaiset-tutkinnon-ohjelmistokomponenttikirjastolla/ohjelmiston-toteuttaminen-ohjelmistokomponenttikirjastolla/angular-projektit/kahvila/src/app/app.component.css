@@ -1,0 +1,16 @@
+.container {
+    margin-top: 30px;
+  }
+.card {
+    margin-bottom: 1rem;
+}
+.card-body {
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+.otsikko {
+    font-size: 4rem;
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: 0;
+}

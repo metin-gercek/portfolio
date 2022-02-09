@@ -1,0 +1,14 @@
+<!-- Myynti-komponentin alku -->
+<figure
+[ngStyle]="{'background-color':ohje.tyo === 'myyty' ? 'red' : 'green' }"
+class="card-image-top otsikko">
+  <fa-icon [icon]="faCoffee"></fa-icon>
+</figure>
+<div class="card-body">
+<h2 class="card-title">Pöytään {{ ohje.poydanNumero }}</h2>
+  <p class="card-text">
+    <span *ngIf="ohje.tyo === 'myyty'" style="color: red; font-weight: 900;">tilattu {{ ohje.myyntiMaara }} kahvia.</span>
+    <span *ngIf="ohje.tyo === 'tarjoiltu'" style="color: green; font-weight: 900;">tarjoiltu {{ ohje.myyntiMaara }} kahvia.</span>
+  </p>
+</div>
+ <!-- Myynti-komponentin loppu -->
