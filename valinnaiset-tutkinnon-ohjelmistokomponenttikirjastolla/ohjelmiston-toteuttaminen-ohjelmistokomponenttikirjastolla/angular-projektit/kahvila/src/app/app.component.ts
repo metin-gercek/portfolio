@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+;
 
 @Component({
   selector: 'app-root',
@@ -7,24 +7,23 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  tarjoiluOhje: any = [];
-  poydanNumero = '';
-  myyntiMaara = '';
-  faCoffee = faCoffee;
-
-  kahviaMyyty() {
-    this.tarjoiluOhje.push({
+  
+  tarjoiluOhje = [{tyo:'myyty', poydanNumero:'11', myyntiMaara:'2'}];
+  
+  kahvinMyynti(myyntiData: {poydanNumero:string, myyntiMaara:string}) {
+    this.tarjoiluOhje.push( {
       tyo: 'myyty',
-      poydanNumero: this.poydanNumero,
-      myyntiMaara: this.myyntiMaara
-    });
+      poydanNumero: myyntiData.poydanNumero,
+      myyntiMaara: myyntiData.myyntiMaara
+    })
   }
 
-  kahviaTarjoiltu() {
+  kahvinTarjoilu(tarjoiluData: {poydanNumero:string, myyntiMaara:string}) {
     this.tarjoiluOhje.push({
       tyo: 'tarjoiltu',
-      poydanNumero: this.poydanNumero,
-      myyntiMaara: this.myyntiMaara
+      poydanNumero: tarjoiluData.poydanNumero,
+      myyntiMaara: tarjoiluData.myyntiMaara
     });
   }
+  
 }

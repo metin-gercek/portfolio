@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-myynti',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyyntiComponent implements OnInit {
 
+  faCoffee =  faCoffee;
+  @Input('tarjoilijalle') ohje!: {tyo:string, poydanNumero:string, myyntiMaara:string};
   constructor() { }
 
   ngOnInit(): void {

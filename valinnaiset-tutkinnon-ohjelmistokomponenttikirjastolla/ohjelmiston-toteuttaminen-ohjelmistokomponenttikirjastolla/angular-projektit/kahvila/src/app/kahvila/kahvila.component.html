@@ -3,11 +3,11 @@
     <div class="col-md-12">
       <h1>Kahvin myynti</h1>
       <label>Pöydän numero</label>
-      <input type="text" class="form-control mb-2" [(ngModel)]="poydanNumero">
+      <input type="text" class="form-control mb-2" [(ngModel)]="uusipoydanNumero">
       <label>Montako annosta</label>
-      <input type="text" class="form-control mb-2" [(ngModel)]="myyntiMaara">
-      <button class="btn btn-primary mr-2" (click)="kahviaMyyty()">Myynti</button>
-      <button class="btn btn-primary" (click)="kahviaTarjoiltu()">Tarjoilu</button>
+      <input type="text" class="form-control mb-2" [(ngModel)]="uusimyyntiMaara">
+      <button class="btn btn-primary mr-2" (click)="kahvinMyyty()">Myynti</button>
+      <button class="btn btn-primary" (click)="kahvinTarjoiltu()">Tarjoilu</button>
     </div>
   </div>
   <!-- Kahvila-komponentin loppu -->
