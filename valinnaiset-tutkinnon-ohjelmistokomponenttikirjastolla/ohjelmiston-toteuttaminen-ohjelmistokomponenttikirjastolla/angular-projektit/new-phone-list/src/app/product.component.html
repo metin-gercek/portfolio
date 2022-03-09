@@ -2,14 +2,9 @@
   There are {{model.getProducts().length}} products in the repository
 </div>
 
-<div>
-  <h2>
-    {{product.name}}
-  </h2>
-  <h2 [textContent]="product.price">
-
-  </h2>
-
-  <img src="assets/img/{{ product.imageUrl}}" alt="">
-  <img [src]="'assets/img/' + product.imageUrl" alt="">
+<div [class]="getClasses(1)">
+  First item is {{model.getProductById(1).name}}
+</div>
+<div [class]="getClasses(5)">
+  Second item is {{model.getProductById(5).name}}
 </div>

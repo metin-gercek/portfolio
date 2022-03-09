@@ -1,8 +1,8 @@
-import { products } from './../../../angular-tutorial-mystore/src/app/products';
-import { ProductRepository } from './../../../free-angular-project/src/app/repository.model';
 
-import { Component } from "@angular/core";
+import { ProductRepository } from './repository.model';
 import { Product } from './product.model';
+import { Component } from "@angular/core";
+
 
 @Component({
   selector: "app",
@@ -13,6 +13,12 @@ import { Product } from './product.model';
 export class ProductComponent {
   model: ProductRepository = new ProductRepository();
 
-  product: Product = this.model.getProductById(1);
+  getClasses(id: number) : string {
+    let product = this.model.getProductById(id);
+    console.log(product.price);
+    return (product.price < 1000 ? "bg-primary text-white": "bg-secondary") + " m-2 p-2";
+  }
+
+
 
 }

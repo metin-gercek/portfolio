@@ -1,10 +1,10 @@
-import { Product } from './../../../free-angular-project/src/app/product.model';
-import { SimpleDataSource } from './../../../free-angular-project/src/app/datasource.model';
+import { Product } from './product.model';
+import { SimpleDataSource } from './datasource.model';
 
 
-export class ProductRespository {
-  private dataSource: SimpleDataSource;
-  private products: Product[] | any;
+export class ProductRepository {
+  private dataSource!: SimpleDataSource;
+  private products!: Product[];
 
   constructor() {
     this.dataSource = new SimpleDataSource;
@@ -16,8 +16,8 @@ export class ProductRespository {
     return this.products;
   }
 
-  getProductById(id: number): Product {
-    return this.products.find((p: { id: number; }) => p.id == id);
-  }
+  getProductById(id: number): Product | any {
+    return this.products.find(p => p.id == id);
+}
 
 }
