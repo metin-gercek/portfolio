@@ -6,4 +6,10 @@
   <h2>
     {{product.name}}
   </h2>
+  <h2 [textContent]="product.price">
+
+  </h2>
+
+  <img src="assets/img/{{ product.imageUrl}}" alt="">
+  <img [src]="'assets/img/' + product.imageUrl" alt="">
 </div>
