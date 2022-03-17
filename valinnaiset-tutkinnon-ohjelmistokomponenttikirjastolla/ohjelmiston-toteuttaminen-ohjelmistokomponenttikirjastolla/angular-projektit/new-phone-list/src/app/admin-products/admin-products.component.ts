@@ -18,4 +18,5 @@ export class AdminProductsComponent {
   ngOnInit(): void {
   }
 
+    selectedProduct: string = '';
 }
